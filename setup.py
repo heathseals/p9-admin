@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name = "p9-admin",
-    version = "0.9.0",
+    version = "0.9.1",
 
     description = "Administrative tools for Platform9",
     author = "Daniel Parks",
@@ -26,6 +26,7 @@ setuptools.setup(
         "click",
         "configparser",
         "openstacksdk",
+        "python-glanceclient",
         "python-keystoneclient",
         "python-ldap",
         "requests",
