@@ -4,6 +4,18 @@ import openstack
 import p9admin
 import sys
 
+def host(self):
+    return self.name
+
+def image(self):
+    return self.name
+
+def project(self):
+    return self.name
+
+def user(self):
+    return self.name
+
 def add_command_group(module):
     for attr in dir(module):
         object = getattr(module, attr)
